@@ -1,0 +1,18 @@
+body {
+    font-size: 16x;
+    color: white;
+    background-image: url("flor.jpg");
+    background-size: 100%;
+}
+
+.left-section {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+}
+
+section {
+    display: block;
+}
