@@ -3,14 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+    <style></style>
 </head>
 <body>
-    
-    <form action="https://formsubmit.co/photobydenys@gmail.com" method="POST">
-        <input type="email" name="email" placeholder="Email Address" required>
-        <input type="hidden" name="_next" value="https://photobydenys.com/pages/thankyou.html">
-        <input type="text" name="name" placeholder="Write your text here" required>
-        <button type="submit">Send</button>
-   </form>
+    <section class="left-section"></section>
+    <section class="right-section">
+        <div class="display-table">
+            <div class="display-table-cell">
+                <div class="main-content">
+                    <h1 class="title">
+                        <b>Under Construction</b>
+                    </h1>
+                    <p class="desc">
+                        "New Website Comming Soon"
+                    </p>
+                    <div class="email-input-area">
+                        <form action="https://formsubmit.co/photobydenys@gmail.com" method="POST">
+                            <fieldset>
+                                <legend>Contact Me:</legend>
+                                <label for="name">Name:</label>
+                                <input type="text" name="name" id="name" placeholder="Micho Alberto" required>
+                                <label for="email">Email:</label>
+                                <input type="text" name="email" id="email" placeholder="example@email.com" required>
+                                <label for="message">Message:</label>
+                                <input type="text" name="message" id="message" placeholder="Write your text here" required>
+                                <button type="submit">Send</button>
+                            </fieldset>
+                       </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
